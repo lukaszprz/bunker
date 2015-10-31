@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bunker System Admin - Home</title>
+</head>
+<body>
+	<h1>Greeting</h1>
+	<div ng-show="authenticated">
+		<p>The ID is {{data.id}}</p>
+		<p>The content is {{data.content}}</p>
+	</div>
+	<div ng-show="!authenticated">
+		<p>Login to see your greeting</p>
+	</div>
+</body>
+</html>
